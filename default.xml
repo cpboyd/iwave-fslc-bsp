@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="sumo"/>
+  <default sync-j="4" revision="thud"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded"  name="oe"/>
   <remote fetch="https://github.com/Freescale"     name="freescale"/>
-  <remote fetch="git://github.com/meta-qt5"        name="QT5"/>
+  <remote fetch="https://github.com/meta-qt5"      name="QT5"/>
   <remote fetch="https://github.com/OSSystems"     name="OSSystems"/>
   <remote fetch="https://github.com/sbabic"        name="sbabic"/>
   <remote fetch="https://github.com/cpboyd"        name="boyd"/>
 
-  <project remote="yocto"     revision="b28f5672ab55ea303727e9f03bc594c7774d597e" upstream="sumo"  name="poky" path="sources/poky"/>
-  <project remote="yocto"     revision="27ca94f8a4336790ba117b4298566f6820e7e74c" upstream="sumo"  name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="oe"        revision="8760facba1bceb299b3613b8955621ddaa3d4c3f" upstream="sumo"  name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="freescale" revision="82037216280a39957fb4272581637abec734ad50" upstream="sumo"  name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" revision="f7e2216e93aff14ac32728a13637a48df436b7f4" upstream="sumo"  name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-  <project remote="QT5"       revision="d4e7f73d04e8448d326b6f89908701e304e37d65" upstream="sumo"  name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="yocto"     revision="50f33d3bfebcbfb1538d932fb487cfd789872026" upstream="thud"  name="poky" path="sources/poky"/>
+  <project remote="yocto"     revision="f5c932229c31b612cba38c2ed6f3c3ec6b800e92" upstream="thud"  name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="oe"        revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005" upstream="thud"  name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="freescale" revision="c4b5ac6b20e4245ce0630e9197313aaef999a331" upstream="thud"  name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="4a244af3993ae662624c6f615464e6806cc719a2" upstream="thud"  name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="QT5"       revision="0630018c0033c91fddda62a49f59a82ba6ec6850" upstream="thud"  name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="sbabic"    revision="f2d65d87485ada5a2d3a744fd7b9e46ec7e6b9f2" upstream="sumo"  name="meta-swupdate" path="sources/meta-swupdate"/>
-  <project remote="boyd"      revision="bea32d699b66854ade4191fbaa5467164bb03346" upstream="sumo"  name="meta-iwave" path="sources/meta-iwave"/>
+  <project remote="sbabic"    revision="c5ec279abdc607495ff4244224c497a2be6abefa" upstream="thud"  name="meta-swupdate" path="sources/meta-swupdate"/>
+  <project remote="boyd"      revision="e8ab47e7ed44bbc6c37d35389f438dbd32fdf18a" upstream="thud"  name="meta-iwave" path="sources/meta-iwave"/>
 
   <project remote="boyd" revision="sumo" name="iwave-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
