@@ -11,15 +11,15 @@
   <remote fetch="https://github.com/sbabic"        name="sbabic"/>
   <remote fetch="https://github.com/cpboyd"        name="boyd"/>
 
-  <project remote="yocto"     revision="50f33d3bfebcbfb1538d932fb487cfd789872026" upstream="thud"  name="poky" path="sources/poky"/>
-  <project remote="yocto"     revision="f5c932229c31b612cba38c2ed6f3c3ec6b800e92" upstream="thud"  name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="yocto"     revision="cdd4a52578f4f1b79b3fc2c92aa4434b99efd91c" upstream="thud"  name="poky" path="sources/poky"/>
+  <project remote="yocto"     revision="b73854c078b0a174613135b60da3377a1055f477" upstream="thud"  name="meta-freescale" path="sources/meta-freescale"/>
   <project remote="oe"        revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005" upstream="thud"  name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="freescale" revision="c4b5ac6b20e4245ce0630e9197313aaef999a331" upstream="thud"  name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="4a244af3993ae662624c6f615464e6806cc719a2" upstream="thud"  name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="QT5"       revision="0630018c0033c91fddda62a49f59a82ba6ec6850" upstream="thud"  name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="sbabic"    revision="c5ec279abdc607495ff4244224c497a2be6abefa" upstream="thud"  name="meta-swupdate" path="sources/meta-swupdate"/>
-  <project remote="boyd"      revision="e8ab47e7ed44bbc6c37d35389f438dbd32fdf18a" upstream="thud"  name="meta-iwave" path="sources/meta-iwave"/>
+  <project remote="sbabic"    revision="c904f64793ed9f9604a8dfccf7cda179897574d1" upstream="thud"  name="meta-swupdate" path="sources/meta-swupdate"/>
+  <project remote="boyd"      revision="1f8bbb527c21489bf212bc154c21763f3c7ebde2" upstream="thud"  name="meta-iwave" path="sources/meta-iwave"/>
 
   <project remote="boyd" revision="sumo" name="iwave-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
