@@ -24,7 +24,7 @@ For more information about `repo`, see the [Repo Command Reference](https://sour
 PATH=${PATH}:~/bin
 mkdir ~/iwave-fslc-yocto
 cd ~/iwave-fslc-yocto
-repo init -u https://github.com/cpboyd/iwave-fslc-bsp.git -b thud
+repo init -u https://github.com/cpboyd/iwave-fslc-bsp.git -b warrior
 repo sync -j4
 ```
 
